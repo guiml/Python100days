@@ -18,7 +18,6 @@ def game():
         "easy": 10,
         "hard": 5
     }
-
     level = difficulty_levels[difficulty]
 
     secret_number = random.randint(1,100)
