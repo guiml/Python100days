@@ -12,7 +12,7 @@ def inequalizer(a,b):
     while a == b:
         b = random.randint(1,49)        
     return(a, b)
-
+    
 def randomizer():
     ''''
     Function to pick two records
@@ -24,13 +24,13 @@ def randomizer():
 
 
 
-def game():
+def gamerun():
     ''''
     Main game function
     '''
     count_right = 0
     end_game = False
-    while end_game == False:
+    while end_game is False:
         clear()
         print(logoHL)
         
@@ -50,7 +50,7 @@ def game():
         print(vs)
         print(f"Against B: {recB['name']}, {recB['description']}, from {recB['country']} ")
         #print(recA['follower_count'],recB['follower_count'])
-        guess = input(f"Who has more followers? Type 'A' or 'B': ")
+        guess = input("Who has more followers? Type 'A' or 'B': ")
         
         
         if guess == 'A':
@@ -65,15 +65,12 @@ def game():
                 count_right += 1
                 previous = randB
                 right = "B"
-
             else: 
                 end_game = True
 
-    if end_game == True:
+    if end_game:
         clear()
         print(logoHL)
         print(f"Sorry, that's wrong! Final score: {count_right}")
 
-game()  
-
-
+gamerun()
