@@ -1,4 +1,4 @@
-from Project_day14_data import dfInstagram
+from p14_project_data import dfInstagram
 from art import logoHL, vs
 import random
 from replit import clear

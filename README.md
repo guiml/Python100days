@@ -18,3 +18,4 @@ Source: https://www.udemy.com/course/100-days-of-code/
 * Day 12 - Number guessing game
 * Day 13 - Debugging
 * Day 14 - Higher / lower Insta followers guess game
+* Day 15 - Coffee Machine project
