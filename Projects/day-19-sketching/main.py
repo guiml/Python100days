@@ -1,5 +1,4 @@
 from turtle import Turtle, Screen
-import turtle
 
 
 pointer = Turtle()
