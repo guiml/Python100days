@@ -32,11 +32,11 @@ while is_race_on:
     for t in turtles_list:
         if t.xcor() > 228:
             is_race_on = False
-
             if t.pencolor() == user_bet:
                 print(f"You've won! The {t.pencolor()} turtle is hte winner!")
             else:
                 print(f"You've lost! The {t.pencolor()} turtle is hte winner!")
+            break
 
         rand_dist = random.randint(0, 10)
         t.forward(rand_dist)
