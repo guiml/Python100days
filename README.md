@@ -3,7 +3,7 @@
 Source: https://www.udemy.com/course/100-days-of-code/ 
 
 
-## Guide of codes per day
+## Guide of codes per day (content exercised)
 
 * Day 1 - Variables
 * Day 2 - Data types 
@@ -14,8 +14,17 @@ Source: https://www.udemy.com/course/100-days-of-code/
 * Day 7 - Hangman game project
 * Day 8 - Dictionaries and nesting
 * Day 10 - Functions with outputs
-* Day 11 - Blackjack game project
-* Day 12 - Number guessing game
-* Day 13 - Debugging
-* Day 14 - Higher / lower Insta followers guess game
-* Day 15 - Coffee Machine project
+* Day 11 - Blackjack game project (functions)
+* Day 12 - Number guessing game (functions)
+* Day 13 - Debugging (debugging)
+* Day 14 - Higher / lower Insta followers guess game (functions)
+* Day 15 - Coffee Machine project (functions)
+* Day 16 - Coffee Machine project (classes and objects)
+* Day 17 - Quizz game (classes and objects)
+* Day 18 - Painting program (objects)
+* Day 19 - Sketching program (functions and objects)
+* Day 20 - Snake game (classes and objects)
+* Day 21 - Pong game (classes and objects)
+* Day 22 - Snake with high score (classes and updating objects)
+* Day 23 - Turtle cross (classes and objects, and updatig objects)
+* Day 24 - Local files and directories
