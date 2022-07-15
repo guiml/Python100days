@@ -8,7 +8,7 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 1
+WORK_MIN = 25
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 reps = 0
@@ -90,7 +90,7 @@ canvas.grid(row=1, column=1)
 button_start = Button(text="Start", command=start_timer)
 button_start.grid(row=2, column=0)
 
-button_reset = Button(text="Reset", command="button_click")
+button_reset = Button(text="Reset", command=reset_timer)
 button_reset.grid(row=2, column=2)
 
 check_label = Label(fg=GREEN, bg=YELLOW)
