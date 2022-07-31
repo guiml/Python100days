@@ -3,6 +3,10 @@
 Source: https://www.udemy.com/course/100-days-of-code/ 
 
 
+# The directory _datastructure_ contains code from the course Data Structure & Algorithms by Scott Barrett.
+
+Source: https://ibm-learning.udemy.com/course/data-structures-algorithms-python/
+
 ## Guide of codes per day (content exercised)
 
 * Day 1 - Variables
